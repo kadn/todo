@@ -132,6 +132,25 @@ ul.todo li:last-of-type {
   margin: 0;
 }
 
+ul#todo.todo input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+ul#completed.todo input {
+  color: #aaa;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: line-through;
+}
+
 ul.todo li .buttons {
   width: 100px;
   height: 50px;
